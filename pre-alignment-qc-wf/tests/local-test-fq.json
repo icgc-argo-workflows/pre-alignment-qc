@@ -1,0 +1,43 @@
+{
+  "study_id": "TCRB-CA",
+  "analysis_id": "8421ae71-e25e-47ba-a1ae-71e25e87bae2",
+  "song_url": "https://song.rdpc-qa.cancercollaboratory.org",
+  "score_url": "https://score.rdpc-qa.cancercollaboratory.org",
+  "cpus": 1,
+  "mem": 1,
+  "tempdir": "/tmp",
+  "download": {
+    "song_url": "https://submission-song.rdpc-qa.cancercollaboratory.org",
+    "song_cpus": 2,
+    "song_mem": 2,
+    "score_url": "https://submission-score.rdpc-qa.cancercollaboratory.org",
+    "score_cpus": 3,
+    "score_mem": 8
+  },
+  "seqDataToLane": {
+    "cpus": 2,
+    "mem": 2
+  },
+  "fastqc": {
+    "cpus": 2,
+    "mem": 2
+  },
+  "cutadapt": {
+    "cpus": 2,
+    "mem": 2
+  },
+  "multiqc": {
+    "cpus": 2,
+    "mem": 2
+  },
+  "payloadGen": {
+    "cpus": 2,
+    "mem": 2
+  },
+  "uploadQc": {
+    "song_cpus": 1,
+    "song_mem": 1,
+    "score_cpus": 1,
+    "score_mem": 1
+  }
+}

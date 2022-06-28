@@ -1,0 +1,35 @@
+{
+    "name": "pre-alignment-qc-wf",
+    "version": "0.1.0",
+    "description": "Pre Alignment QC Workflow",
+    "main": "main.nf",
+    "deprecated": false,
+    "keywords": [
+        "quality control workflow"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-workflows/pre-alignment-qc.git"
+    },
+    "dependencies": [
+        "github.com/icgc-argo/nextflow-data-processing-utility-tools/song-score-download@2.6.2",
+        "github.com/icgc-argo/nextflow-data-processing-utility-tools/song-score-upload@2.7.0",
+        "github.com/icgc-argo-workflows/data-processing-utility-tools/payload-gen-seq-experiment@0.5.0.1",
+        "github.com/icgc-argo-workflows/argo-qc-tools/fastqc@0.2.0",
+        "github.com/icgc-argo-workflows/argo-qc-tools/multiqc@0.1.0",
+        "github.com/icgc-argo-workflows/argo-qc-tools/cutadapt@0.2.0",
+        "github.com/icgc-argo-workflows/dna-seq-processing-tools/seq-data-to-lane-fastq@0.2.0",
+        "github.com/icgc-argo-workflows/data-processing-utility-tools/payload-gen-qc@0.1.0",
+        "github.com/icgc-argo-workflows/data-processing-utility-tools/cleanup-workdir@1.0.0.1"
+    ],
+    "devDependencies": [],
+    "contributors": [
+        {
+            "name": "Linda Xiang",
+            "email": "linda.xiang@oicr.on.ca"
+        }
+    ],
+    "license": "GNU Affero General Public License v3",
+    "bugReport": "https://github.com/icgc-argo-workflows/pre-alignment-qc/issues",
+    "homepage": "https://github.com/icgc-argo-workflows/pre-alignment-qc#readme"
+}
