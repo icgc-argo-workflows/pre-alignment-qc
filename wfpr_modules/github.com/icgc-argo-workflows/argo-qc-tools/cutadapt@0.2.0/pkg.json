@@ -1,13 +1,16 @@
 {
-    "name": "fastqc",
-    "version": "0.1.0.1",
-    "description": "FastQC tool",
+    "name": "cutadapt",
+    "version": "0.2.0",
+    "description": "CutAdapt tool",
     "main": "main.nf",
     "deprecated": false,
     "keywords": [
-        "bioinformatics",
-        "seq",
-        "qc metrics"
+        "qc metrics",
+        "adapters",
+        "adapter contamination",
+        "trimming",
+        "quality trimming",
+        "adapter trimming"
     ],
     "repository": {
         "type": "git",
@@ -27,8 +30,8 @@
     "devDependencies": [],
     "contributors": [
         {
-            "name": "Linda Xiang",
-            "email": "linda.xiang@oicr.on.ca"
+            "name": "Morgan Taschuk",
+            "email": "morgan.taschuk@oicr.on.ca"
         }
     ],
     "license": "MIT",
