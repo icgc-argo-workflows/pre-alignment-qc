@@ -12,7 +12,7 @@ version controlled and released independently. To ensure reproducibility the pip
 which specific version of a module is to be imported.
 
 ## Major tasks performed in the workflow
-* download input sequencing metadata/data from `SONG/SCORE`
+* download input sequencing metadata/data from data center using [SONG/SCORE client tools](https://docs.icgc-argo.org/docs/submission/submitting-molecular-data#data-submission-client-configuration)
 * preprocess input sequencing reads (in `FASTQ` or `BAM`) into lane level (aka read group level) `FASTQs`
 * perform `FastQC` analysis for each lane `FASTQs`
 * perform `Cutadapt` analysis for each lane `FASTQs`
@@ -33,7 +33,7 @@ which specific version of a module is to be imported.
 - api_token
 
 ## Outputs
-- file_pair_map: CSV file contains the 3 columns per lane: `read_group_id`, `file_r1`, `file_r2`
+- file_pair_map: CSV file with each row contains 3 columns: `read_group_id`, `file_r1`, `file_r2`, which represent information for each lane(aka read group)
 - payload: Payload contains metadata for all QC files
 - multiqc_report: HTML report file `multiqc_report.html`
 
