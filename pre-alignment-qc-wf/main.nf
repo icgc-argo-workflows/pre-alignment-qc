@@ -218,7 +218,6 @@ workflow PreAlignmentQcWf {
         true)
     }
 
-
   emit:  // update as needed
     file_pair_map = toLane.out.file_pair_map_csv
     payload = pGenQc.out.payload
