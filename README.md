@@ -1,6 +1,6 @@
 # ICGC ARGO Pre Alignment QC Workflow
 
-This repository maintains the source code of the ICGC ARGO DNA/RNA Seq Pre Alignment QC Workflow. The workflow is written in [Nextflow](https://www.nextflow.io/) workflow language using DSLv2, with modules imported from other ICGC ARGO GitHub repositories. Specifically, here are repositories maintaining various of tools/modules:
+This repository maintains the source code of the ICGC ARGO Pre Alignment QC Workflow for DNA/RNA Seq. The workflow is written in [Nextflow](https://www.nextflow.io/) workflow language using DSLv2, with modules imported from other ICGC ARGO GitHub repositories. Specifically, here are repositories maintaining various of tools/modules:
 
 * https://github.com/icgc-argo-workflows/argo-qc-tools
 * https://github.com/icgc-argo-workflows/dna-seq-processing-tools
@@ -40,7 +40,7 @@ which specific version of a module is to be imported.
 
 ## Run the pipeline
 To run the pipeline, please follow instruction [here](https://www.nextflow.io/docs/latest/getstarted.html#installation) to install Nextflow (version `20.10` or higher) first. 
-With inputs prepared, you should be able to run the workflow using the following command. Please replace the params file with a real one (with all required parameters and input files). Example params file(s) can be found in the root folder.
+With inputs prepared, you should be able to run the workflow using the following command. Please replace the params file with a real one (with all required parameters and input files). Example params file `example-params.json` can be found in the workflow root folder.
 
 Run `0.1.0` version of the pipeline:
 ```
