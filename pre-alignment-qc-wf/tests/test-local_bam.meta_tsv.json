@@ -5,7 +5,6 @@
   "file_info_tsv": "data/file.tsv",
   "extra_info_tsv": "data/extra_info.tsv",
   "sequencing_files": [ "data/test_rg_3.v2.bam" ],
-  "ref_genome_fa": "reference/tiny-grch38-chr11-530001-537000.fa",
   "cpus": 2,
   "mem": 2,
   "tempdir": "/tmp",

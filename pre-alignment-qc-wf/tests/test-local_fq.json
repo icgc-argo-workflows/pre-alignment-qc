@@ -10,7 +10,6 @@
     "data/C0HVY.2_r1.fq.gz",
     "data/C0HVY.fq.gz"
   ],
-  "ref_genome_fa": "reference/tiny-grch38-chr11-530001-537000.fa",
   "cpus": 2,
   "mem": 2,
   "tempdir": "/tmp",
